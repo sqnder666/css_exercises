@@ -1,10 +1,3 @@
-h2 {
-	font-size: 20px;
-	color: blue;
-}
-h2 {
-	font-style: italic; 
+.elem + li {
 	color: red;
 }
-
-/* красный цвет */
