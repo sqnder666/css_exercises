@@ -1,35 +1,17 @@
-.lxner {
-    padding: 40px;
-    margin: 39px;
-    background: white;
-    color: black;
-    font-weight: 100;
-    text-decoration: none;
-    font-size: 30px;
-}
-.lxner:hover {
-    background: rgb(0, 255, 13);
+#lxner {
+	width: 300px;
+	height: 200px;
+	border-left: 3px solid orange;
+	border-right: 3px solid green;
+    border-top: 3px solid blue;
+	border-bottom: 3px solid red;
 }
 
-.one, .two, .three, .four{
-    border-width: 10px;
-    width: 120px;
-    height: 2490px;
-    text-align: left;
-}
-.one{
-    border-style: ridge;
-    border-color: rgb(210, 210, 239);
-}
-.two {
-    border-style: dotted;
-    border-color: rgb(0, 255, 51);
-}
-.three {
-    border-style: dashed;
-    border-color: rgb(240, 17, 110);
-}
-.four {
-    border-style:double;
-    border-color: rgb(158, 226, 12);
+#rizza {
+	width: 300px;
+	height: 200px;
+	border-left: 3px solid red;
+	border-right: 3px dotted green;
+    border-top: 1px solid blue;
+	border-bottom: 1px solid blue;
 }
