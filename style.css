@@ -1,24 +1,19 @@
 #lxner {
-	width: 300px;
-	height: 200px;
-	border-left: 3px solid orange;
-	border-right: 3px solid green;
-    border-top: 3px solid blue;
-	border-bottom: 3px solid red;
+	width: 250px;
+	height: 100px;
+	border: 1px solid red;
+	border-radius: 10px 20px 30px 40px;
 }
-
-#rizza {
-	width: 300px;
-	height: 200px;
-	border-left: 3px solid red;
-	border-right: 3px dotted green;
-    border-top: 1px solid blue;
-	border-bottom: 1px solid blue;
+#rizza{
+		width: 250px;
+		height: 100px;
+		border: 1px solid red;
+		border-radius: 10px 40px;
+	
 }
-
 #tdd {
-	width: 200px;
-	height: 200px;
-	border-radius: 100px;
-	border: 1px solid green;
+	width: 250px;
+	height: 100px;
+	border: 1px solid red;
+	border-radius: 10px 20px 30px;
 }
