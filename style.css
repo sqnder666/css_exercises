@@ -1,11 +1,11 @@
-#lxner ul {
-	list-style-type: square;
+#lxner ol {
+	list-style-type: lower-alpha;
 }
 
-#rizza ul {
-	list-style-type: circle;
+#rizza ol {
+	list-style-type: lower-greek;
 }
 
-#tdd ul {
-	list-style-type: none;
+#tdd ol {
+	list-style-type: upper-alpha;
 }
