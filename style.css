@@ -1,3 +1,17 @@
-li:nth-child(n+7):nth-child(-n+14) {
-	color: red;
+g:first-of-type{
+    color: rgb(5, 51, 255);
+}
+h2:last-of-type{
+    color: rgb(255, 0, 255);
+}
+
+p:nth-of-type(2){
+    color: rgb(90, 90, 90);
+}
+p:nth-last-of-type(2){
+color: rgb(193, 27, 27);
+}
+
+h2:only-of-type{
+    color: rgb(179, 93, 139);
 }
