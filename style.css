@@ -1,19 +1,8 @@
 #lxner {
-	width: 200px;
-	height: 150px;
-	border: 1px solid red;
-}
-#rizza {
 	position: absolute;
-	top: 100px; 
-	
-	width: 100px;
-	height: 100px;
-	margin-left: 10px;
+	top:    100px;
+	right:  200px;
+	bottom: 50px;
+	left:   10px;
 	border: 1px solid green;
-}
-#tdd {
-	width: 50px;
-	height: 150px;
-	border: 1px solid blue;
 }
