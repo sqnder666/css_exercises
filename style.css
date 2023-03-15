@@ -1,78 +1,13 @@
-.lxner {
-    padding: 10px;
-    margin: 10px;
-    background: #08c;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 20px;
-}
-.lxner:hover {
-    background: #0af;
-}
-
-.parent {
-    display: flex;
-    width: 500px;
+.parent	{
+	display: flex;
+    justify-content: space-between;
+    width: 900px;
     height: 200px;
     border: 1px solid red;
 }
 .child {
-    width: 70px;
+    justify-content: center;
+    width: 80px;
     height: 50px;
-    border: 1px solid green;
-}
-
-.parent1 {
-    display: flex;
-    width: 500px;
-    border: 1px solid red;
-}
-.child1 {
-    width: 70px;
-    height: 50px;
-    border: 1px solid green;
-}
-
-.parent2 {
-    display: flex;
-    border: 1px solid red;
-}
-.child2 {
-    width: 70px;
-    height: 50px;
-    border: 1px solid green;
-}
-
-.parent3 {
-    display: inline-flex;
-    border: 1px solid red;
-}
-.child3 {
-    width: 70px;
-    height: 50px;
-    border: 1px solid green;
-}
-
-.parent4 {
-    display: inline-flex;
-    padding: 10px;
-    border: 1px solid red;
-}
-.child4 {
-    width: 70px;
-    height: 50px;
-    border: 1px solid green;
-}
-
-.parent5 {
-    display: inline-flex;
-    padding: 10px;
-    border: 1px solid red;
-}
-.child5 {
-    width: 70px;
-    height: 50px;
-    margin: 10px;
     border: 1px solid green;
 }
