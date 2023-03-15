@@ -1,13 +1,29 @@
-.parent	{
-	display: flex;
-    justify-content: space-between;
-    width: 900px;
-    height: 200px;
+#lxner {
+    width: 100px;
+    height: 100px;
+    margin-top: 200px;
     border: 1px solid red;
+	background-color: red;
 }
-.child {
-    justify-content: center;
-    width: 80px;
-    height: 50px;
+
+#rizza {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 580px;
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
     border: 1px solid green;
+	background-color: green;
+}
+
+#tdd {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 480px;
+    margin-left: 200px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+	background-color: blue;
 }
