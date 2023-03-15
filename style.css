@@ -1,29 +1,24 @@
-#lxner {
-    width: 100px;
-    height: 100px;
-    margin-top: 200px;
-    border: 1px solid red;
-	background-color: red;
+#parent {
+	width: 500px;
+	height: 400px;
+	margin: 0 auto;
+	border: 1px solid red;
+    background-color: aqua;
 }
-
-#rizza {
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 580px;
-    margin-left: 100px;
-    width: 100px;
-    height: 100px;
-    border: 1px solid green;
-	background-color: green;
+#child {
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 20px;
+	width: 150px;
+	height: 150px;
+	border: 1px solid green;
+    background-color: white;
 }
-
-#tdd {
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 480px;
-    margin-left: 200px;
-    width: 100px;
-    height: 100px;
-    border: 1px solid blue;
-	background-color: blue;
+#child1 {
+    margin-left: 300px;
+    margin-top: 50px;
+	width: 150px;
+	height: 150px;
+	border: 1px solid green;
+    background-color: white;
 }
