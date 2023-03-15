@@ -1,12 +1,78 @@
+.lxner {
+    padding: 10px;
+    margin: 10px;
+    background: #08c;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+.lxner:hover {
+    background: #0af;
+}
+
 .parent {
-	width: 300px;
-	text-align: right;
-	padding: 10px 0;
-	border: 1px solid red;
+    display: flex;
+    width: 500px;
+    height: 200px;
+    border: 1px solid red;
 }
 .child {
-	text-align: center;
-	width: 100px;
-	padding: 10px;
-	border: 1px solid green;
+    width: 70px;
+    height: 50px;
+    border: 1px solid green;
+}
+
+.parent1 {
+    display: flex;
+    width: 500px;
+    border: 1px solid red;
+}
+.child1 {
+    width: 70px;
+    height: 50px;
+    border: 1px solid green;
+}
+
+.parent2 {
+    display: flex;
+    border: 1px solid red;
+}
+.child2 {
+    width: 70px;
+    height: 50px;
+    border: 1px solid green;
+}
+
+.parent3 {
+    display: inline-flex;
+    border: 1px solid red;
+}
+.child3 {
+    width: 70px;
+    height: 50px;
+    border: 1px solid green;
+}
+
+.parent4 {
+    display: inline-flex;
+    padding: 10px;
+    border: 1px solid red;
+}
+.child4 {
+    width: 70px;
+    height: 50px;
+    border: 1px solid green;
+}
+
+.parent5 {
+    display: inline-flex;
+    padding: 10px;
+    border: 1px solid red;
+}
+.child5 {
+    width: 70px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid green;
 }
